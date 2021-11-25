@@ -1,28 +1,18 @@
 export default function Footer() {
   const links = [
     {
-      title: 'Source',
-      url: 'https://github.com/zenorocha/zenorocha.com',
-      icon: 'ri-braces-line'
-    },
-    {
-      title: 'Twitter',
-      url: 'https://twitter.com/zenorocha',
-      icon: 'ri-twitter-line'
-    },
-    {
-      title: 'GitHub',
-      url: 'https://github.com/zenorocha',
-      icon: 'ri-github-line'
-    },
-    {
-      title: 'linkedin',
-      url: 'https://linkedin.com/in/zenorocha',
+      title: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/mattfewer/',
       icon: 'ri-linkedin-line'
     },
     {
+      title: 'GitHub',
+      url: 'https://github.com/mattyfew',
+      icon: 'ri-github-line'
+    },
+    {
       title: 'Instagram',
-      url: 'https://instagram.com/zenorocha',
+      url: 'https://instagram.com/mattyfew',
       icon: 'ri-instagram-line'
     },
   ]

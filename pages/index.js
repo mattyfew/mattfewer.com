@@ -6,8 +6,8 @@ import ShortcutHome from '../components/ShortcutHome'
 export async function getStaticProps() {
   return {
     props: {
-      title: 'Zeno Rocha',
-      description: 'Building world-class products that make developers happy',
+      title: 'Matt Fewer',
+      description: 'Building world-class applications, and some music on the side 😎',
       image: '/static/images/home-bw.jpg',
     },
   }
@@ -23,8 +23,8 @@ function Home(props) {
         <meta content={title} property="og:title" />
         <meta content={description} name="description" />
         <meta content={description} property="og:description" />
-        <meta content="https://zenorocha.com" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://mattfewer.com" property="og:url" />
+        <meta content={`https://mattfewer.com${image}`} property="og:image" />
       </Head>
 
       <Navbar />
@@ -33,7 +33,7 @@ function Home(props) {
           <div className="post-container">
             <div className="single">
               <h1>{title}</h1>
-              <p><strong>VP of Developer Experience at WorkOS</strong>.<br/>
+              <p><strong>Senior Software Engineer at Just Eat Takeaway</strong><br/>
               {description}.</p>
               <ShortcutHome />
             </div>

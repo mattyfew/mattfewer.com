@@ -12,7 +12,7 @@ export default function Updates() {
       <h2 className="update-title">Stay up to date</h2>
       <p className="update-description">My email list is the best way to follow all the work I'm doing. Sign up below.</p>
 
-      <form action="https://zenorocha.us4.list-manage.com/subscribe/post?u=f3eb54b0d52e9b0f83a8d26ee&amp;id=9ffdb97e70" method="post" className="form">
+      <form action="https://mattfewer.us4.list-manage.com/subscribe/post?u=f3eb54b0d52e9b0f83a8d26ee&amp;id=9ffdb97e70" method="post" className="form">
         <input name="EMAIL" placeholder="Your email address" id="mce-EMAIL" type="email" required />
         <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
       </form>

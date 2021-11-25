@@ -19,9 +19,9 @@ export async function getStaticProps() {
 
   return {
     props: {
-      title: 'Articles // Zeno Rocha',
-      tagline: 'Stories. Updates. Guides.',
-      image: '/static/images/articles-bw.jpg',
+      title: 'Articles | Matt Fewer',
+      tagline: 'Articles. Musings. Ideas.',
+      image: '/static/img/posts-mf/getting-started-with-redux-saga-cover.png', // move to folder just for these images
       gradientColor: 'yellow-pink',
       selectionColor: 'orange',
       allPosts,
@@ -32,8 +32,8 @@ export async function getStaticProps() {
 function Articles(props) {
   const renderFeatured = () => {
     const featured = [
-      'what-ive-learned-after-giving-100-talks',
-      'the-technology-stack-i-used-to-build-my-first-mobile-app',
+      'getting-started-with-redux-saga',
+      'two-programmer-mindsets-adapter-architect',
     ]
 
     return props.allPosts
@@ -76,8 +76,8 @@ function Articles(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/projects/" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://mattfewer.com/projects/" property="og:url" />
+        <meta content={`https://mattfewer.com${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>
