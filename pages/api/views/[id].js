@@ -4,7 +4,8 @@ let jwt;
 
 try {
   const scopes = 'https://www.googleapis.com/auth/analytics.readonly';
-  const auth = require('../../../auth.json');
+  // const auth = require('../../../auth.json');
+  const auth = process.env;
   jwt = new google.auth.JWT(auth.client_email, null, auth.private_key, scopes);
 } catch(e) {
   console.error('Google Analytics API disabled due to missing Service Account Credentials');
