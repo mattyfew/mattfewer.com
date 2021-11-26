@@ -4,8 +4,12 @@ let jwt;
 
 try {
   const scopes = 'https://www.googleapis.com/auth/analytics.readonly';
-  // const auth = require('../../../auth.json');
-  const auth = process.env;
+
+  let auth = process.env;
+  if (!process.env) {
+    auth = require('../../../auth.json');
+  }
+
   jwt = new google.auth.JWT(auth.client_email, null, auth.private_key, scopes);
 } catch(e) {
   console.error('Google Analytics API disabled due to missing Service Account Credentials');
@@ -54,7 +58,9 @@ async function getData(id) {
 
 export default async ({ query: { id } }, res) => {
   try {
-    const views = await getData(id);
+    // const views = await getData(id);
+    const views = 0;
+
     res.status(200).json({ views });
   }
   catch(e) {

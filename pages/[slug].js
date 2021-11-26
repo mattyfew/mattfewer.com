@@ -49,13 +49,13 @@ export async function getStaticProps({ params }) {
     const isProd = process.env.NODE_ENV === 'production';
     const base = isProd ? 'https://mattfewer.com' : 'http://localhost:3000';
 
-    if (isProd) {
-      const viewsReq = await fetch(`${base}/api/views/${params.slug}`);
-      const viewsRes = await viewsReq.json();
-
-      post.views = new Intl.NumberFormat().format(viewsRes.views || 0);
-    }
-
+    // if (isProd) {
+    //   const viewsReq = await fetch(`${base}/api/views/${params.slug}`);
+    //   const viewsRes = await viewsReq.json();
+    //
+    //   post.views = new Intl.NumberFormat().format(viewsRes.views || 0);
+    // }
+s
     return {
       props: {
         ...post,
