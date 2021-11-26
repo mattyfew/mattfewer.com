@@ -55,7 +55,6 @@ function About(props) {
         return year.videos.filter(video => featured.includes(video.title));
       })
       .reduce((acc, item) => {
-        console.log('wtf', acc, item)
         return acc.concat(item);
       }, [])
       .map((year, index) => {
