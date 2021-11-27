@@ -16,11 +16,11 @@ const items = [
         artist: "Midnight in Motion",
         date: "2016-06-17",
         where: "New York, NY - USA",
-        url: "https://fb.watch/9rQhcIKsAk/",
+        url: "https://fb.watch/9xMAe7IBV2/",
         cover: "/static/images/mim-promo-shot.jpg"
       },
       {
-        title: "Moves Like Jagger (Maroon 5",
+        title: "Moves Like Jagger (Maroon 5)",
         artist: "Midnight in Motion",
         date: "2016-06-01",
         where: "Long Island, NY - USA",

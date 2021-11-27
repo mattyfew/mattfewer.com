@@ -55,7 +55,7 @@ export async function getStaticProps({ params }) {
     //
     //   post.views = new Intl.NumberFormat().format(viewsRes.views || 0);
     // }
-s
+
     return {
       props: {
         ...post,
