@@ -1,5 +1,43 @@
 const items = [
   {
+    year: "2020",
+    summary: "",
+    videos: [
+      {
+        title: "Silent Ricksdorf - Pizza Corona guitar solo",
+        artist: "Kazoom!",
+        date: "2020-08-21",
+        where: "Berlin, Germany",
+        url: "https://www.youtube.com/watch?v=8-118ro1luA",
+        cover: "/static/images/the-monster-cover.jpg"
+      },
+      {
+        title: "Silent Ricksdorf - Aerials (System of a Down)",
+        artist: "Kazoom!",
+        date: "2020-08-21",
+        where: "Berlin, Germany",
+        url: "https://www.youtube.com/watch?v=7Zj1Q-WuqSY",
+        cover: "/static/images/the-monster-cover.jpg"
+      },
+      {
+        title: "Silent Ricksdorf - Forest (System of a Down)",
+        artist: "Kazoom!",
+        date: "2020-08-21",
+        where: "Berlin, Germany",
+        url: "https://www.youtube.com/watch?v=qppJLoX-DQo",
+        cover: "/static/images/the-monster-cover.jpg"
+      },
+      {
+        title: "Silent Ricksdorf - Hysteria (Muse)",
+        artist: "Kazoom!",
+        date: "2020-08-21",
+        where: "Berlin, Germany",
+        url: "https://www.youtube.com/watch?v=CD2GrWakn_8",
+        cover: "/static/images/the-monster-cover.jpg"
+      },
+    ]
+  },
+  {
     year: "2016",
     summary: "",
     videos: [
