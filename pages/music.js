@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Link from "next/link";
 import { AnimateSharedLayout } from "framer-motion";
 import Main from "../layouts/Main";
 import FeaturedContent from "../components/FeaturedContent";
@@ -68,6 +69,8 @@ function Music(props) {
 
       <AnimateSharedLayout>
         <p dangerouslySetInnerHTML={{ __html: description }} />
+
+        <p><Link href="/catalog">Click here to view my musical catalog.</Link></p>
 
         <h2>Featured Videos</h2>
         {/* ToDo: change things like the classNames */}
