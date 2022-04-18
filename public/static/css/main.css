@@ -897,6 +897,21 @@ figure {
 /* Footer
    ========================================================================== */
 
+.website-credit {
+  text-align: center;
+  color: var(--secondaryColor);
+  font-size: 13px;
+}
+
+.website-credit a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.website-credit a:hover {
+  color: white
+}
+
 .footer {
   background: var(--backgroundColor);
   display: flex;
